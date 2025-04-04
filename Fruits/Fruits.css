@@ -1,0 +1,61 @@
+.FruitsTitle {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 33px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.Fruits-P {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  line-height: 1.4;
+}
+
+.Fruits-Buttons {
+  margin-top: 40px;
+  width: 110px;
+  height: 45px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  background-color: black;
+  float: left;
+}
+.Fruit-Img {
+  float: right;
+  margin-right: 100px;
+}
+
+.Fruits-pInner {
+  width: 800px;
+  text-align: left;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 20px;
+  display: block;
+}
+
+.Fruit-Item {
+  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 10%;
+  height: 300px;
+}
+
+.Fruits-h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+.Fruits-Buttons:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

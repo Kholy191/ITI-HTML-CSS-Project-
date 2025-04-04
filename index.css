@@ -1,0 +1,125 @@
+.Home-Button1 {
+  border: 0;
+  width: 150px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+  background-color: #ff6a2f;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.Home-Button2 {
+  border: 0;
+  width: 150px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.Home-Button2:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.Home-Button1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.Welcome {
+  padding-top: 150px;
+  width: 100%;
+  height: 750px;
+  margin-bottom: 100px;
+  background-color: #f9f6f7;
+}
+
+.HomeInnerDiv {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Home-Img {
+  float: right;
+}
+
+.Home-h2 {
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.Home-P {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.Home-ImgOrg {
+  position: relative;
+  margin-top: 120px;
+}
+
+.Home-THE-IMG {
+  width: 100%;
+}
+
+.TextOnImage {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+h5 {
+  text-align: center;
+  font-size: 140px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-left: 910px;
+  margin-bottom: 750px;
+}
+
+.LastHeader {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.LastP {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  line-height: 1.4;
+  margin-top: 50px;
+}
+
+.Testimonial {
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.Last {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

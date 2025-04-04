@@ -1,0 +1,62 @@
+.SendButton {
+  border: 0;
+  width: 150px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+  background-color: #ff6a2f;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Contact-h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.ContactImg {
+  float: right;
+}
+
+.Contact-Form {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-left: 15%;
+}
+
+.Contact-Txt {
+  color: black;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #c8c4c4;
+  width: 40%;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.Contact-message {
+  margin-top: 100px;
+}
+
+.Contact-Txt:focus {
+  color: #ff6600; /* Change text color when typing */
+
+  outline: none; /* Remove the focus outline */
+  box-shadow: none; /* Remove any default shadow */
+}
+
+.Contact-Txt::after {
+  color: black;
+}
+
+.SendButton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

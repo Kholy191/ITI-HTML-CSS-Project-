@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/General.css" />
+    <link rel="stylesheet" href="/ContactUs/ContactUs.css" />
+    <title>ContactUs</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="headers-Nav">
+        <img src="/images/logo.png" alt="Logo" class="TitleIcon" />
+        <h1>FRUITS SHOP</h1>
+        <nav>
+          <a href="/index.html" class="NavLinks linked">Home</a>
+          <a href="/Fruits/Fruits.html" class="NavLinks linked">Fruits</a>
+          <a href="/Services/Services.html" class="NavLinks linked">Services</a>
+          <a href="/ContactUs/ContactUs.html" class="NavLinks linked"
+            >Contact Us</a
+          >
+          <img
+            src="/images/search.png"
+            alt="SearchIcon"
+            class="NavLinks"
+            width="30"
+          />
+        </nav>
+      </div>
+    </header>
+    <!-- ------------------ -->
+    <form action="https://httpbin.org/post" class="Contact-Form" method="post">
+      <img src="/images/orange-dish.png" alt="orange-dish" class="ContactImg" />
+      <h2 class="Contact-h2">Contact Us</h2>
+      <input
+        type="text"
+        placeholder="Name"
+        class="Contact-Txt"
+        required
+        name="NAME"
+      />
+      <input
+        type="text"
+        placeholder="Phone Number"
+        class="Contact-Txt"
+        pattern="[0-9]+"
+        name="Number"
+      />
+      <input
+        type="text"
+        placeholder="Email"
+        class="Contact-Txt"
+        required
+        name="Email"
+      />
+      <input
+        type="text"
+        placeholder="Message"
+        class="Contact-Txt Contact-message"
+        required
+        name="requiredMessage"
+      />
+
+      <button class="SendButton">SEND</button>
+    </form>
+    <!-- Footer All -->
+    <section>
+      <div class="UpperFooter">
+        <div class="Website-Overall">
+          <div class="Upper-Inner-Footer">
+            <h4>Fruits</h4>
+            <p class="FooterDoc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Explicabo, nobis corrupti. Facilis explicabo libero iste soluta.
+              Corporis, quos dolor! Consequuntur
+            </p>
+          </div>
+        </div>
+
+        <div class="Website-Overall">
+          <div class="Upper-Inner-Footer">
+            <h4>Services</h4>
+            <p class="FooterDoc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Explicabo, nobis corrupti. Facilis explicabo libero iste soluta.
+              Corporis, quos dolor! Consequuntur
+            </p>
+          </div>
+        </div>
+
+        <div class="Website-Overall">
+          <div class="Upper-Inner-Footer">
+            <h4>List</h4>
+            <p class="FooterDoc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Explicabo, nobis corrupti. Facilis explicabo libero iste soluta.
+              Corporis, quos dolor! Consequuntur
+            </p>
+          </div>
+        </div>
+
+        <div class="Website-Overall SubscribeClass">
+          <h4>Follow Us</h4>
+          <a href=""><img src="/images/fb.png" alt="" class="ImgLinks" /></a>
+          <a href=""
+            ><img src="/images/linkedin.png" alt="" class="ImgLinks"
+          /></a>
+          <a href=""
+            ><img src="/images/twitter.png" alt="" class="ImgLinks"
+          /></a>
+          <a href=""
+            ><img src="/images/instagram.png" alt="" class="ImgLinks"
+          /></a>
+          <form action="">
+            <label for="Subscribe" class="Labels">Subscribe Now</label>
+            <input type="text" id="Subscribe" required />
+            <button class="SubscribeButton">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <div class="Footerc">
+          <p>Copyright &copy; All Rights Reserved</p>
+        </div>
+      </footer>
+    </section>
+    <!-- --------------------- -->
+  </body>
+</html>

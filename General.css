@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #f9f6f7;
+  padding-top: 1px;
+  height: 100px;
+}
+
+.headers-Nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  margin-top: 20px;
+}
+
+nav {
+  float: right;
+}
+
+h1 {
+  color: #26374a;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.NavLinks {
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.NavLinks.linked {
+  color: #595657;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.TitleIcon {
+  float: left;
+}
+
+footer {
+  background-color: #f0ecec;
+  height: 100px;
+}
+
+.Footerc {
+  text-align: center;
+  padding: 45px;
+}
+
+.Website-Overall {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+.UpperFooter {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 100px;
+}
+
+div > h4 {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.Upper-Inner-Footer {
+  justify-content: space-between;
+  width: 30%;
+  height: 30%;
+}
+
+.FooterDoc {
+  line-height: 1.4;
+}
+
+section {
+  margin-top: 150px;
+}
+
+.SubscribeButton {
+  border: 0;
+  width: 150px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+  background-color: #ff6a2f;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#Subscribe {
+  width: 250px;
+  height: 30px;
+  float: left;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.ImgLinks {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.Labels {
+  display: block;
+  text-align: left;
+  margin-top: 120px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.SubscribeClass {
+  height: 30%;
+  justify-content: space-between;
+}
+
+.SubscribeButton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
